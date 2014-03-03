@@ -1,0 +1,159 @@
+/*CLEARFIX*/
+.clearfix:after {content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}
+
+
+/*CSS RESET*/
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,embed,
+figure,figcaption,footer,header,hgroup,
+menu,nav,output,ruby,section,summary,
+time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,
+q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+
+/*GLOBALS*/
+body, hmtl{background: url(../fancy-pants.jpg); font-family: "Century Gothic", Arial, Sans Serif; color:#333;}
+a{text-decoration:none; color:#ff004e;}
+
+.bold{font-weight:bold;	}
+.small{	font-size:12px;}
+.medium{font-size:14px; font-style:italic	}
+span.green-txt-inner{	color:rgba(28,157,110,0.8); text-shadow: 1px 1px 3px #fff, 0 0 0 #000;}
+span.green-txt{	color:#56b391;}
+
+
+#wrapper {
+	width:500px;
+	margin:0 auto;	
+	background:#eaeaea;
+	border-radius:12px;
+	line-height:140%;
+	padding:15px;
+}
+
+#loading{width:120px;
+margin: 15px auto;
+}
+
+#button-wrap{
+	width:437px;
+	margin:50px auto;
+	overflow:hidden;	
+	height:40px;
+}
+
+.btn{
+	width:200px;
+	float:left;
+	
+}
+
+#or{
+	float:left;
+	color:#fff;
+	line-height:33px;
+	margin:0px 10px;	
+}
+
+#save, #save2{
+	width:200px;
+	background:#ff004e;
+	margin: 0 auto;	
+	padding:10px;
+	border:none;
+	color:#fff;
+	cursor:pointer;	
+	border-radius:6px;
+}
+
+img#avatar{
+	border-radius:6px;
+	margin: 0 auto;
+	margin-left:215px;
+}
+
+
+#header{
+	text-align:center;
+	margin:15px 0 25px;	
+}
+
+h2{
+	font-size:18px;	
+	font-weight:bold;
+}
+
+
+
+.stats{
+	width:31%;
+	float:left;
+	text-align:center;
+	color:#999;
+	margin-left:14px;
+	border-radius:6px;
+	border:1px solid #d2d2d2;
+	padding:10px 0px;
+	margin-bottom:14px;
+	font-size:13px;
+}
+
+.no{
+	margin-left:0px;	
+}
+
+
+
+span{
+	display:block;
+	font-size:28px;
+	font-weight:bold;
+	margin-bottom:10px;
+	color:#444;
+}	
+
+.stats:hover{
+	color:#fff;
+	background:#ff004e;	
+}
+.stats:hover span{
+	color:#fff;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

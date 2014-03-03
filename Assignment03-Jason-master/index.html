@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <title>Json</title>
+  </head>
+  
+  <style>
+  	
+	body{
+	background:url(img/chalkboard.jpg);	
+	}
+  
+  	.wrap{
+		width:23%;
+		padding:100px 1%;
+		float:left;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+		color:#fff;
+	}
+	
+	.wrap img{
+		width:100%;	
+		max-width:800px;
+	}
+	
+	h1{
+		color:#fff;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+		font-size:18px;
+		text-align:center;
+		text-shadow:rgba(0,0,0,0.5)1px 1px 1px;
+	}
+	
+	h2{
+		font-size:13px;
+		color:#ff004e;
+		text-decoration:underline;
+	}
+	
+	#head{
+		width:201px;
+		margin: 20px auto;
+	}
+	
+	#btn{
+		width:200px;
+		background:#ff004e;
+		margin: 0 auto;	
+		padding:10px;
+		border:none;
+		color:#fff;
+		cursor:pointer;	
+		border-radius:6px;
+	}
+	
+	@media (max-width: 800px) {
+		.wrap{
+			width:98%;
+			float:none;	
+		}
+	}
+	
+  </style>
+  
+  
+  <body>
+	
+    <div id="head">
+        <h1>All my beautiful things</h1>
+        <button type="button" id="btn" onClick="loadJSON()">Load my Portfolio</button>
+    </div>
+    <div id="article-feed"></div>
+
+  <script src="js/json-ajax.js"></script>
+  </body>
+</html>
