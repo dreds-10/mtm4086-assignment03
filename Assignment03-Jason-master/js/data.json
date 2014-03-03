@@ -1,0 +1,31 @@
+[
+	{
+	    "title" : "RideShark Dashboard", 
+	    "description"   : "The project main's goal was to redesign the dashboard of RideShark's application",
+	    "author" : "Andre Cortellini",
+	    "imageUrl" : "img/w1.jpg",
+		"imageAlt" : "rideshark"
+		
+	},
+	{
+	    "title" : "Float Cruises", 
+	    "description"   : "Leapshot's new project called Float Cruises",
+	    "author" : "Andre Cortellini",
+	    "imageUrl" : "img/w2.jpg",
+		"imageAlt" : "float cruises"
+	},
+	{
+	    "title" : "Be this Guy", 
+	    "description"   : "Campaign project",
+	    "author" : "Andre Cortellini",
+	    "imageUrl" : "img/w3.jpg",
+		"imageAlt" : "be this guy"
+	},
+	{
+	    "title" : "Ownit", 
+	    "description"   : "A fun shopping cart full of Javascript",
+	    "author" : "Andre Cortellini",
+	    "imageUrl" : "img/w4.jpg",
+		"imageAlt" : "ownit"
+	}
+]
